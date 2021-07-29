@@ -25,7 +25,7 @@ func main() {
 	}
 
 	if jam == "PM" {
-		if angka <= 12 {
+		if angka < 12 {
 			output += strconv.Itoa(angka + 12)
 		} else {
 			output += strconv.Itoa(angka)
